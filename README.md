@@ -4,10 +4,9 @@ Géocodage inversé sur les points d'un fichier GPX (avec la BAN)
 ## Convertir le GPX en CSV
 
 Un fichier GPX (ici 2022490.gpx) comporte des points géolocalisés et pour chaque point une date/heure et une altitude.
+Nous souhaitons récupérer une adresse pour chaque point stocké dans ce fichier, on parle de géocodage inverse (x,y -> adresse)
 
 <img src="/img/carteGpx.jpg" width="400">
-
-Il est parfois nécessaire de récupérer une adresse pour les points stockés dans ce fichier.
 
 Le site d'Etalab https://adresse.data.gouv.fr/api/ propose différents outils qui peuvent nous aider à réaliser ce géocodage inverse. Nous allons nous intéresser à la fonction batch qui permet d'envoyer un csv et de récupérer les adresses associées aux points.
 
