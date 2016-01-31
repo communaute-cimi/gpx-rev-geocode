@@ -1,6 +1,8 @@
 <?php
 
+// Nom du fichier à traiter (gpx vers csv)
 $gpxFileName = "2022490.gpx";
+
 $csvFileName = $gpxFileName . '.csv';
 $colsName = array('date', 'ele', 'lon', 'lat');
 $simplify = true;
